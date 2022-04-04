@@ -12,7 +12,7 @@ namespace Bookstore.Core
                 new Book
                 {
                     Name = "Harry Potter",
-                    Price = 12.99
+                    Author = "J K Rowling"
                 }
             };
         }
