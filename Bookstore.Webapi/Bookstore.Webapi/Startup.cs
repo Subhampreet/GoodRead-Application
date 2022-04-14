@@ -25,6 +25,7 @@ namespace Bookstore.Webapi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<Book>
             services.AddTransient<IBookServices, BookServices>();
             services.AddControllers();
             services.AddRazorPages();
