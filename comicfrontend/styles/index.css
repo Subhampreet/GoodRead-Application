@@ -1,0 +1,77 @@
+/* ---------------Header--------------------- */
+.header {
+    width: 100%;
+    background: white;
+    box-shadow: 0px 0px 10px 0px #cfd1d3;
+}
+
+.header .main {
+    width: 90%;
+    margin: auto;
+    padding: 17px 0px;
+}
+
+.header .main .body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .main .body .logo .logo-img{
+    width: 140px;
+}
+
+
+
+.header .main .body .right{
+    width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+}
+
+.header .main .body .right .search{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.header .main .body .right .search input{
+    border: 1px #e7e7ec solid;
+    /* border-radius: 5px; */
+    border-radius: 0px;
+    width: 80%;
+    height: 35px;
+    padding: 15px;
+    border-right: none;
+}
+
+.header .main .body .right .search input::placeholder{
+    letter-spacing: 0.08rem;
+    color: #bfc2c2;
+}
+
+.header .main .body .right .search .searchbutton{
+    background-color: rgb(18, 16, 16);
+    color: #e7e7ec;
+    padding: 8.0px 20px;
+    letter-spacing: 0.06rem;
+}
+
+.header .main .body .right .account{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .main .body .right .account .icon{
+    font-size: 1.5rem;
+    width: 30px;
+    color: rgb(35, 33, 33);
+}
+
+.header .main .body .right .account img{
+    width: 40px;
+    border-radius: 50%;
+}
