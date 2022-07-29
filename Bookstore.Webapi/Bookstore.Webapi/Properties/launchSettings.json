@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:22088",
-      "sslPort": 44332
+      "applicationUrl": "http://localhost:64897",
+      "sslPort": 44398
     }
   },
   "profiles": {
@@ -12,20 +12,16 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "DATABASE_NAME": "BookstoreDb",
-        "BOOKS_COLLECTION_NAME" : "Books"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Bookstore.Webapi": {
+    "Bookstore.WebApi": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "DATABASE_NAME": "BookstoreDb",
-        "BOOKS_COLLECTION_NAME": "Books"
+        "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
   }
