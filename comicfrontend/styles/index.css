@@ -153,13 +153,14 @@
 
 .sidebar .body .main .top .top-body .release .rating{
     position: absolute;
-    background-color: white;
-    padding: 5px;
+    background-color: rgb(10, 10, 10);
+    padding: 6px 5px;
     border-radius: 50%;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     top: 5px;
     right: 5px;
+    color: #fff;
 }
 
 .sidebar .body .main .top .top-body .release h4{
