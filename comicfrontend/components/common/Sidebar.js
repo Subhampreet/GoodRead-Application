@@ -13,7 +13,7 @@ function Sidebar() {
     <div className='sidebar'>
         <div className='body'>
             <div className='main'>
-                <div className='top'>
+                {/* <div className='top'>
                     <div className='head'>
                         <h2>New Releases</h2>
                         <div className='sort'>
@@ -38,7 +38,7 @@ function Sidebar() {
                             </div>                            
                         </div>                        
                     </div>
-                </div>
+                </div> */}
                 <div className='bottom'>
                     <div className='head'>MENU</div>
                     <div className='menu-item active'>
